@@ -1,7 +1,16 @@
-# 🚀 Getting started with Strapi
+# 🚀 BATELA API with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
+## `step 1: Configuration`
+
+```
+modified the .env.example file to .env
+- change the environment variables according to the configuration of your locale
+
+```
+
+## `step 2: Start the Api`
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
@@ -22,6 +31,7 @@ npm run start
 yarn start
 ```
 
+## `step 2: build the Api`
 ### `build`
 
 Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
